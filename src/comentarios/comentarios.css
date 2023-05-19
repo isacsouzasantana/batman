@@ -1,0 +1,92 @@
+* {
+    background-color: #BFBFBF;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+header {
+    background-color: black;
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header2 {
+    background-color: #fff;
+    height: 1px;
+}
+
+nav {
+    width: 60%;
+}
+
+ul {
+    background-color: black;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+li {
+    background-color: black;
+    list-style: none;
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 19px;
+    transition: .5s;
+    font-family: 'Kdam Theor Pro', sans-serif;
+}
+
+li:hover {
+    color: #d21617;
+}
+
+#logo {
+    width: 150px;
+    height: auto;    
+}
+
+.comentario1 {
+    width: 350px;
+    height: 400px;
+    border-radius: 5px;
+    border: 2px #008F8C solid;
+    margin-top: 1px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding: 10px 10px 20px 10px;
+    color: #ffffff;
+}
+
+.description {
+    display: flex;
+    color: black;
+    font-family: 'Kdam Theor Pro', sans-serif;
+    font-size: 20px;
+    margin-left: 135px;
+    margin-top: 20px;
+}
+
+button {
+    display: flex;
+    background-color: #d21617;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .8s;
+    width: 30%;
+    margin-top: 20px;
+    margin-left: 30%;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
